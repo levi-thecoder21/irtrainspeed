@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train speed</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea97f930dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="headerdiv">
+        <h1 class="header">Train Speed Calculator for Railfans</h1>
+        <h4>Calculate Train Speed and Average Speed with Ease</h4>
+        <p> Welcome to our site, dedicated to rail enthusiasts! Here, you can effortlessly calculate the speed of trains from outside observations and determine the average speed of your train journeys.</p>
+    </div>
+    <div class="middle-div">
+        <img src="DSC03730.JPG" alt="Train Image">
+        <div class="overlay">
+            <p class="overlay-para">To find out the speed of the train as it passes, please enter the details below:</p>
+            <div class="form-group">
+                <label for="dropdown1">Select loco:</label>
+                <select id="loco">
+                    <option value="none">None</option>
+                    <option value="wap7">WAP 7</option>
+                    <option value="wap4">WAP 4</option>
+                    <option value="wap5">WAP 5</option>
+                    <option value="wap1">WAP 1</option>
+                    <option value="wag9">WAG 9</option>
+                    <option value="wag12">WAG 12</option>
+                    <option value="wcam2">WCAM 2</option>
+                    <option value="wcam3">WCAM 3</option>
+                    <option value="wdp4">WDP 4</option>
+                    <option value="wdp4d">WDP 4D</option>
+                    <option value="wdp4b">WDP 4B</option>
+                    <option value="wdm3d">WDM 3D</option>
+                    <option value="wdm3a">WDM 3A</option>
+                    <option value="wdg3">WDG 3</option>
+                    <option value="wdm7">WDM 7</option>
+                    <option value="wdp3a">WDP 3A</option>
+                    <option value="wdg4g">WDG 4G</option>
+                    <option value="wdg5">WDG 5</option>
+                    <option value="wdg6g">WDG 6G</option>
+                    <option value="wag10">WAG 10</option>
+                    <option value="wag11">WAG 11</option>
+                    <option value="wdg4">WDG 4</option>
+                    <option value="trainset">Vandhe bharat(No need to select coach type)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="input1">Enter the Number of coaches in the train:</label>
+                <input type="text" id="noofcoaches">
+            </div>
+            <div class="form-group">
+                <label for="dropdown2">Please Select the coach type:</label>
+                <select id="coach">
+                    <option value="option1">None</option>
+                    <option value="LHB">LHB</option>
+                    <option value="ICF">ICF</option>
+                    <option value="boxn">BOXN</option>
+                    <option value="btpn">BTPN</option>
+                    <option value="bcna">BCNA</option>
+                    <option value="concor">CONCOR</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="input2">Enter the number of seconds it took for the train to pass you:</label>
+                <input type="text" id="time">
+            </div>
+            <button id="submit">Calculate</button>
+            <h1 id="answer1">0</h1>
+            <div class="average-speed-form">
+                <p class="overlay-para">Calculate the average speed of the train:</p>
+                <div class="form-group">
+                    <label for="distance">Distance traveled (in km):</label>
+                    <input type="text" id="distance">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time taken (in hours):</label>
+                    <input type="text" id="time1">
+                </div>
+                <div class="form-group">
+                    <label for="minutes">Time taken (minutes):</label>
+                    <input type="text" id="minutes">
+                </div>
+                <button id="calculateaveragespeed">Calculate Average Speed</button>
+                <h1 id="answer">0</h1>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <h3>megavannan2114@gmail.com</h3>
+                        <div class="appicons">
+                            <a href="https://www.instagram.com/__megavannan__/" ><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/megavannan-r-572a0a241" ><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://x.com/brindhavanexp?t=lYdQhvWP30kFjRTZIVnBhg&s=09" ><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p class="bottompara">Copyrights@Megavannan R</p>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

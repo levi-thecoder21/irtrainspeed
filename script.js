@@ -17,13 +17,13 @@ const locos = {
     wdm3a :17.13,
     wdg3:  17.85,
     wdm7 : 17.12,
-    wdp3a :18.62,
+    wdp3a : 18.62,
     wdg4g: 22.56,
     wdg5: 22.26,
     wd56g: 22.31,
     wag10 : 20.56,
     wag11 : 20.56,
-    trainset: 24,
+    trainset: 24.00,
     wdg4: 21.24,
 
 };

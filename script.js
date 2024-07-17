@@ -43,7 +43,7 @@ document.getElementById("submit").onclick = function() {
     let nocoach = Number(document.getElementById("noofcoaches").value);
     let time = Number(document.getElementById("time").value);
 
-    if (time > 0 && nocoach < 40){
+    if (time > 0 && nocoach < 60){
         if (locotype === "trainset") { 
             let ans = ((locos[locotype] * nocoach) / time) * 18 / 5;
             let ansround = Math.round(ans * 100) / 100;
